@@ -1,2 +1,2 @@
-# aoc
+# AoC
 My Advent of Code solutions. Not very clean code.
