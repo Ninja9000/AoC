@@ -15,16 +15,8 @@ class Main {
 		}
 
 		while (c < 256) {
-			long t8 = lefishe[8];
-			long t7 = lefishe[7];
-			long t6 = lefishe[6];
-			long t5 = lefishe[5];
-			long t4 = lefishe[4];
-			long t3 = lefishe[3];
-			long t2 = lefishe[2];
-			long t1 = lefishe[1];
-			long t0 = lefishe[0];
-      
+			long t8 = lefishe[8], t7 = lefishe[7], t6 = lefishe[6], t5 = lefishe[5], t4 = lefishe[4], t3 = lefishe[3], t2 = lefishe[2], t1 = lefishe[1], t0 = lefishe[0];
+			
 			lefishe[8] = 0;
 			lefishe[7] = t8;
 			lefishe[6] = t7;
