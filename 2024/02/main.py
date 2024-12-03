@@ -22,6 +22,7 @@ for report in reports:
             diff = abs(tLevels[j] - tLevels[j + 1])
             if diff < 1 or diff > 3:
                 tSafe = False
+        
         if tSafe:
             safe = True
     
